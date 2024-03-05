@@ -63,3 +63,15 @@ h1{
 .card .card-txt{
     padding: 10px 0;
 }
+
+.card-txt .member-name{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5f5f33;
+}
+
+.card-txt .member-role{
+    font-size: .9rem;
+    color: #38381d;
+}
