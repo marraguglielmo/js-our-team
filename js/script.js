@@ -43,16 +43,16 @@ const members =[
 for(let member in members){
     output.innerHTML += `
     <div class="col">
-    <div class="card">
-        <div class="card-img">
-            <img src="img/${members[member].foto}" alt="foto membro">
-        </div>
-        <div class="card-txt">
-            <div class="member-name">${members[member].nome}</div>
-            <div class="member-role">${members[member].ruolo}</div>
+        <div class="card">
+            <div class="card-img">
+                <img src="img/${members[member].foto}" alt="foto membro">
+            </div>
+            <div class="card-txt">
+                <div class="member-name">${members[member].nome}</div>
+                <div class="member-role">${members[member].ruolo}</div>
+            </div>
         </div>
     </div>
-</div>
     `
 }
 
