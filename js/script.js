@@ -1,3 +1,6 @@
+const output = document.querySelector('.output');
+
+
 const members =[
 
     {
@@ -38,7 +41,19 @@ const members =[
 ];
 
 for(let member in members){
-    console.log(members[member].nome + '--> ' + members[member].ruolo);
+    output.innerHTML += `
+    <div class="col">
+    <div class="card">
+        <div class="card-img">
+            <img src="img/${members[member].foto}" alt="foto membro">
+        </div>
+        <div class="card-txt">
+            <div class="member-name">Nome</div>
+            <div class="member-role">ruolo</div>
+        </div>
+    </div>
+</div>
+    `
 }
 
 
