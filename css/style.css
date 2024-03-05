@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    background-color: #e7e7df;
 }
 
 img{
@@ -17,13 +18,7 @@ h1{
     font-weight: 500;
 }
 
-.debug{
-    background-color: rgba(255, 0, 0, 0.514);
-    border: .5px solid black;
-}
-
 .main-wrapper{
-    background-color: rgba(0, 128, 0, 0.233);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +52,7 @@ h1{
 } 
 
 .col .card{
+    background-color: whitesmoke;
     width: 100%;
     display: flex;
     flex-direction: column;
