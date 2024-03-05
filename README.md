@@ -14,5 +14,7 @@ Barbara Ramos\_\_\_\_ Graphic Designer\_\_\_\_ barbara-ramos-graphic-designer.jp
 
 ## Svolgimento
 
-1. creo un array di oggetti con i dati per ogni membro
-2. con un ciclo for in stampo i dati
+1. creo un array di 6 oggetti
+2. ogni oggetto ha 3 proprietà: nome, ruolo e foto
+3. con un ciclo for of ciclo i membri
+4. ad ogni ciclo stampo le proprietà degli oggetti in pagina
