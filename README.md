@@ -17,4 +17,4 @@ Barbara Ramos\_\_\_\_ Graphic Designer\_\_\_\_ barbara-ramos-graphic-designer.jp
 1. creo un array di 6 oggetti
 2. ogni oggetto ha 3 proprietà: nome, ruolo e foto
 3. con un ciclo for of ciclo i membri
-4. ad ogni ciclo stampo le proprietà degli oggetti in pagina
+4. ad ogni ciclo stampo le proprietà degli oggetti in pagina, aggiungendo dinamicamente le informazioni da stampare
