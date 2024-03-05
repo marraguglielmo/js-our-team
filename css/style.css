@@ -5,5 +5,70 @@
 }
 
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.debug{
+    background-color: rgba(255, 0, 0, 0.514);
+    border: .5px solid black;
+}
+
+.main-wrapper{
+    background-color: rgba(0, 128, 0, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.main-wrapper p{
+    width: 50%;
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+.main-wrapper #box-wrapper{
+    background-color: rgba(255, 0, 0, 0.11);
+    width: 100%;
+    margin-top: 40px;
+}
+/* 
+.main-wrapper #box-wrapper img{
+    width: 300px;
+} */
+
+#box-wrapper .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col{
+    width: calc(100% / 3);
+    padding: 10px;
+} 
+
+.col .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card .card-txt{
+    padding: 10px 0;
 }
